@@ -7,25 +7,71 @@ Data Integration:
 Skip size options are dynamically fetched from the REMWaste API endpoint based on postcode input, ensuring the displayed skips reflect accurate availability by location.
 
 Component-Based Architecture:
-The UI is broken down into modular, reusable React components (SkipSelection, SkipCard, Progress, etc.) written in TypeScript for strong typing and maintainability.
+The UI is composed of modular, reusable React components (SkipSelection, SkipCard, Progress, etc.) written in TypeScript, providing type safety and easier maintainability.
 
-Responsive Design:
-Tailwind CSS utility classes enable a flexible grid layout that adapts seamlessly across screen sizes—from mobile devices to large desktop monitors—ensuring an optimal experience on all devices.
+Responsive Design with Tailwind CSS:
+Tailwind CSS utility classes are heavily utilized to create a clean, responsive grid and layout that adapts smoothly from mobile devices to large desktops. This approach keeps styling consistent and minimal in CSS files.
 
 User Experience Enhancements:
 
-Clear visual cues highlight the currently selected skip.
+Clear visual highlights indicate the currently selected skip.
 
-Price Calculation:
-VAT-inclusive pricing is calculated on the fly to display clear, accurate costs to users.
+Interactive skip cards support keyboard navigation (Enter and Space keys), improving accessibility.
 
-How to Run Locally
-Clone the repository.
+VAT-inclusive pricing is calculated dynamically and displayed clearly.
 
-Install dependencies with pnpm install.
+Accessibility Considerations:
+Semantic HTML roles, keyboard focus management, and clear visual feedback make the interface usable by screen readers and keyboard-only users.
 
-Run the development server with pnpm dev.
+How to Build and Run Locally
+Prerequisites
+Node.js (v16 or higher recommended)
 
-Open http://localhost:3000 in your browser to test the redesigned skip selection page.
+pnpm (Fast, efficient package manager)
 
-# remwaste
+If you don’t have pnpm installed, you can install it globally with:
+
+bash
+Copy
+Edit
+npm install -g pnpm
+More info at the official pnpm site: https://pnpm.io/installation
+
+Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/remwaste-skip-redesign.git
+cd remwaste-skip-redesign
+Install dependencies:
+
+bash
+Copy
+Edit
+pnpm install
+Running the Development Server
+Start the local development server with:
+
+bash
+Copy
+Edit
+pnpm dev
+This will launch the app at http://localhost:3000. The app supports hot-reloading for instant feedback on code changes.
+
+Technologies Used
+React with TypeScript for scalable, type-safe component development.
+
+Tailwind CSS for utility-first, responsive styling. Tailwind was configured with JIT mode for optimal performance and fast builds.
+
+Fetch API and React hooks handle asynchronous data fetching and state management efficiently.
+
+Accessibility best practices incorporated with ARIA roles, keyboard interaction support, and semantic HTML.
+
+Deployment
+The app is automatically deployed via Netlify on every push to the main branch. This ensures that the live version is always up to date with the latest code.
+
+You can view the live, accessible version here:
+➡️ https://remwaste-patrick.netlify.app/
+
