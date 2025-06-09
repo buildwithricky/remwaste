@@ -1,3 +1,4 @@
+
 # REMWaste Skip Size Redesign
 
 ## Project Overview
@@ -34,43 +35,49 @@ If you don’t have `pnpm` installed, you can install it globally with:
 
 ```bash
 npm install -g pnpm
-More info at the official pnpm site: https://pnpm.io/installation
+```
 
-Installation
-Clone the repository:
+More info at the official pnpm site: [https://pnpm.io/installation](https://pnpm.io/installation)
 
-bash
-Copy
-Edit
+### Installation
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/your-username/remwaste-skip-redesign.git
 cd remwaste-skip-redesign
-Install dependencies:
+```
 
-bash
-Copy
-Edit
+2. Install dependencies:
+
+```bash
 pnpm install
-Running the Development Server
+```
+
+### Running the Development Server
+
 Start the local development server with:
 
-bash
-Copy
-Edit
+```bash
 pnpm dev
-This will launch the app at http://localhost:3000. The app supports hot-reloading for instant feedback on code changes.
+```
 
-Technologies Used
-React with TypeScript for scalable, type-safe component development.
 
-Tailwind CSS for utility-first, responsive styling. Tailwind was configured with JIT mode for optimal performance and fast builds.
 
-Fetch API and React hooks handle asynchronous data fetching and state management efficiently.
+## Technologies Used
 
-Accessibility best practices incorporated with ARIA roles, keyboard interaction support, and semantic HTML.
+- **React** with **TypeScript** for scalable, type-safe component development.  
+- **Tailwind CSS** for utility-first, responsive styling. Tailwind was configured with JIT mode for optimal performance and fast builds.  
+- Fetch API and React hooks handle asynchronous data fetching and state management efficiently.  
+- Accessibility best practices incorporated with ARIA roles, keyboard interaction support, and semantic HTML.
 
-Deployment
-The app is automatically deployed via Netlify on every push to the main branch. This ensures that the live version is always up to date with the latest code.
+## Deployment
 
-You can view the live, accessible version here:
-➡️ https://remwaste-patrick.netlify.app/
+The app is automatically deployed via **Netlify** on every push to the main branch. This ensures that the live version is always up to date with the latest code.
 
+You can view the live, accessible version here:  
+➡️ [https://remwaste-patrick.netlify.app/](https://remwaste-patrick.netlify.app/)
+
+---
+
+If you have any questions or feedback, feel free to reach out!
