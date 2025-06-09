@@ -1,39 +1,38 @@
-REMWaste Skip Size Redesign
-Project Overview
-This project is a React-based redesign of the “Choose Your Skip Size” page for REMWaste, aiming to modernize the user interface while preserving the core functionality. The redesign focuses on improving usability, accessibility, and responsiveness for both desktop and mobile web users.
+# REMWaste Skip Size Redesign
 
-Approach and Key Features
-Data Integration:
-Skip size options are dynamically fetched from the REMWaste API endpoint based on postcode input, ensuring the displayed skips reflect accurate availability by location.
+## Project Overview
 
-Component-Based Architecture:
-The UI is composed of modular, reusable React components (SkipSelection, SkipCard, Progress, etc.) written in TypeScript, providing type safety and easier maintainability.
+This project is a React-based redesign of the **“Choose Your Skip Size”** page for REMWaste, aiming to modernize the user interface while preserving the core functionality. The redesign focuses on improving usability, accessibility, and responsiveness for both desktop and mobile web users.
 
-Responsive Design with Tailwind CSS:
-Tailwind CSS utility classes are heavily utilized to create a clean, responsive grid and layout that adapts smoothly from mobile devices to large desktops. This approach keeps styling consistent and minimal in CSS files.
+## Approach and Key Features
 
-User Experience Enhancements:
+- **Data Integration:**  
+  Skip size options are dynamically fetched from the REMWaste API endpoint based on postcode input, ensuring the displayed skips reflect accurate availability by location.
 
-Clear visual highlights indicate the currently selected skip.
+- **Component-Based Architecture:**  
+  The UI is composed of modular, reusable React components (`SkipSelection`, `SkipCard`, `Progress`, etc.) written in TypeScript, providing type safety and easier maintainability.
 
-Interactive skip cards support keyboard navigation (Enter and Space keys), improving accessibility.
+- **Responsive Design with Tailwind CSS:**  
+  Tailwind CSS utility classes are heavily utilized to create a clean, responsive grid and layout that adapts smoothly from mobile devices to large desktops. This approach keeps styling consistent and minimal in CSS files.
 
-VAT-inclusive pricing is calculated dynamically and displayed clearly.
+- **User Experience Enhancements:**  
+  - Clear visual highlights indicate the currently selected skip.  
+  - Interactive skip cards support keyboard navigation (`Enter` and `Space` keys), improving accessibility.  
+  - VAT-inclusive pricing is calculated dynamically and displayed clearly.
 
-Accessibility Considerations:
-Semantic HTML roles, keyboard focus management, and clear visual feedback make the interface usable by screen readers and keyboard-only users.
+- **Accessibility Considerations:**  
+  Semantic HTML roles, keyboard focus management, and clear visual feedback make the interface usable by screen readers and keyboard-only users.
 
-How to Build and Run Locally
-Prerequisites
-Node.js (v16 or higher recommended)
+## How to Build and Run Locally
 
-pnpm (Fast, efficient package manager)
+### Prerequisites
 
-If you don’t have pnpm installed, you can install it globally with:
+- **Node.js** (v16 or higher recommended)  
+- **pnpm** (Fast, efficient package manager)  
 
-bash
-Copy
-Edit
+If you don’t have `pnpm` installed, you can install it globally with:
+
+```bash
 npm install -g pnpm
 More info at the official pnpm site: https://pnpm.io/installation
 
