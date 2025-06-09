@@ -18,11 +18,8 @@ This project is a React-based redesign of the **“Choose Your Skip Size”** pa
 
 - **User Experience Enhancements:**  
   - Clear visual highlights indicate the currently selected skip.  
-  - Interactive skip cards support keyboard navigation (`Enter` and `Space` keys), improving accessibility.  
   - VAT-inclusive pricing is calculated dynamically and displayed clearly.
 
-- **Accessibility Considerations:**  
-  Semantic HTML roles, keyboard focus management, and clear visual feedback make the interface usable by screen readers and keyboard-only users.
 
 ## How to Build and Run Locally
 
